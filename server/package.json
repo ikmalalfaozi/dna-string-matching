@@ -1,0 +1,22 @@
+{
+    "name": "dna-string-matching",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "start": "npx nodemon index.js",
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "keywords": [],
+    "author": "Ikmal Alfaozi",
+    "license": "ISC",
+    "dependencies": {
+        "body-parser": "^1.20.0",
+        "dotenv": "^16.0.1",
+        "express": "^4.18.1",
+        "express-validator": "^6.14.2",
+        "moment": "^2.29.4",
+        "mongoose": "^6.5.0",
+        "nodemon": "^2.0.19"
+    }
+}
