@@ -2,6 +2,8 @@
 
 **DNA STRING MATCHING** adalah aplikasi web yang bisa digunakan untuk mencocokkan sequence DNA yang dikirimkan oleh pengguna dengan sequence DNA pengidentifikasi penyakit yang berada di database. Jika segmen DNA yang dikirimkan cocok dengan sequence DNA yang berada di database, sampel DNA akan ditandai sebagai positif, dan sebaliknya. Riwayat pencocokan sequence DNA (uji DNA) akan disimpan ke dalam database sehingga pengguna bisa melihat kembali hasil pengujian DNA tersebut.
 
+<img src="image/dashboard.png">
+
 ## FITUR - FITUR APLIKASI
 
 -   Aplikasi dapat menerima input penyakit baru berupa nama penyakit dan sequence DNA-nya (dan dimasukkan ke dalam database).
@@ -40,10 +42,14 @@
 1. Masuk ke halaman `Add New Disease`.
 2. Masukkan nama penyakit dan sequence dna-nya (sequence dna ditulis ke dalam file dengan ekstensi .txt) lalu tekan `save` untuk menyimpan data penyakit tersebut ke database. Pastikan sequence dna hanya terdiri dari karakter "AGCT".
 
+<img src="image/add-new-disease.png">
+
 ### Melihat Daftar Penyakit yang Ada
 
 1. Masuk ke halaman `Disease List`.
 2. Klik `view detail` pada penyakit tertentu untuk melihat keseluruhan sequence DNA penyakit tersebut.
+
+<img src="image/disease-list.png">
 
 ### Mengubah dan Menghapus Penyakit
 
@@ -51,13 +57,19 @@
 2. Klik `view detail` pada penyakit yang ingin diubah atau dihapus.
 3. Klik `Edit` untuk mengubah data penyakit dan klik `hapus` untuk menghapus penyakit.
 
+<img src="image/edit-&-delete.png">
+
 ### Melakukan Tes DNA
 
 1. Masuk ke halaman `DNA Test`.
 2. Masukkan nama pengguna, nama penyakit yang ingin diperiksa, dan sequence dna pengguna (sequence dna ditulis ke dalam file dengan ekstensi txt) lalu tekan `submit`. Pastikan sequence dna hanya terdiri dari karakter "AGCT".
 3. Jika proses pencocokan dna sudah selesai, maka aplikasi akan menampilkan hasil tes dna-nya.
 
+<img src="image/dna-test.png">
+
 ### Melihat Riwayat Tes DNA
 
 1. Masuk ke halaman `History`.
 2. Masukan tanggal dan nama penyakit, atau tanggal, atau nama penyakit pada field yang disediakan untuk mencari nama penyakit dan/atau tanggal yang diinginkan.
+
+<img src="image/history.png">
